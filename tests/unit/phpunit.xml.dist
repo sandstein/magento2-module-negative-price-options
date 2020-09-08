@@ -13,8 +13,8 @@
          bootstrap="./framework/bootstrap.php"
         >
     <testsuites>
-        <testsuite name=":module-namespace_:module-name Integration Tests">
-            <directory>../../../vendor/:vendor/:package/tests/unit</directory>
+        <testsuite name="Snm_NegativePriceOptions Integration Tests">
+            <directory>../../../vendor/sandstein/magento2-module-negative-price-options/tests/unit</directory>
         </testsuite>
     </testsuites>
     <php>
@@ -23,7 +23,7 @@
     </php>
     <filter>
         <whitelist>
-            <directory suffix=".php">../../../vendor/:vendor/:package/src/*</directory>
+            <directory suffix=".php">../../../vendor/sandstein/magento2-module-negative-price-options/src/*</directory>
         </whitelist>
     </filter>
     <listeners>

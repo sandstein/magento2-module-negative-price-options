@@ -2,6 +2,6 @@
 
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    ':module-namespace_:module-name',
+    'Snm_NegativePriceOptions',
     __DIR__ . '/src'
 );

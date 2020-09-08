@@ -1,6 +1,6 @@
 <?php
 
-namespace :module-namespace\:module-name;
+namespace Snm\NegativePriceOptions;
 
 use PHPUnit\Framework\TestCase;
 
